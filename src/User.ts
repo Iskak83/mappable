@@ -1,4 +1,5 @@
 import faker from 'faker';
+import { isNotEmittedStatement } from 'typescript';
 
 export class User {
     name: string;
@@ -14,5 +15,10 @@ export class User {
             lng: parseFloat(faker.address.longitude())
         };
     }
+
+    markerContent(): string {
+        return `User Name: ${this.name}`;
+    }
+
 }
 
