@@ -8,8 +8,7 @@ export class Company implements Mappable{
         lat: number;
         lng: number
     };
- 
-
+    
     constructor() {
         this.companyName = faker.company.companyName();
         this.catchPhrase = faker.company.catchPhrase();
