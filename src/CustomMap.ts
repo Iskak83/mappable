@@ -11,7 +11,7 @@ export interface Mappable {
 }
 
 export class CustomMap {
-    private googleMap: google.maps.Map;
+    // private googleMap: google.maps.Map;
 
     constructor(divId: string) {
         this.googleMap = new google.maps.Map(document.getElementById(divId), {zoom: 1, center: {
