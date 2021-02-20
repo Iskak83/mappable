@@ -5,7 +5,7 @@ export interface Mappable {
     };
     markerContent(): string;
 
-    // color: string
+    color: string
 }
 
 export class CustomMap {
