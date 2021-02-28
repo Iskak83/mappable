@@ -3,7 +3,7 @@ import { Mappable } from './CustomMap';
 
 export class Company implements Mappable{
     companyName: string;
-    catchPhrase: string;
+    // catchPhrase: string;
     location: {
         lat: number;
         lng: number
