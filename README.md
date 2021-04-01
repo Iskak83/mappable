@@ -1,2 +1,2 @@
 
-Mappable
+Mappable, TypeScript learning project. 
